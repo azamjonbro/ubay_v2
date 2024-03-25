@@ -1,0 +1,18 @@
+client {
+    create, check
+} OK
+
+category {
+    CUD
+}
+
+product {
+    CRUD || read with category
+}
+
+order {
+    CRUD || list with chat_id
+}
+
+product id degan qoshimcha rout qoshiladi va u rout botga json tashlanganda shu json ichida boladi. botga json tashlanishi 
+bilan bot u jsonni oqidi va u jsonni aylanib backendga update sorovlarini yuboradi va shu id bilan update qiladi.
