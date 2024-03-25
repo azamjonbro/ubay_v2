@@ -3,11 +3,11 @@ const Schema = mongoose.Schema;
 
 const productSchema = new Schema({
     title: String,
-    price: Number,
+    price: String,
     code: String,
     image: String,
-    box_count: Number,
-    residual: Number,
+    box_count: String,
+    residual: String,
     category: String,
     category_rout: String,
 });
