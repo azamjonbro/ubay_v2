@@ -66,6 +66,7 @@ export const updateImages = async (req, res) => {
 }
 
 export const updateJSON = async (req, res) => {
+    
     try {
         const fileContent = JSON.parse(req.file.buffer.toString('utf8'));
 
